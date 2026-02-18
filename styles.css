@@ -67,6 +67,15 @@ main,
   padding: 3rem 0 2.25rem;
 }
 
+.hero-product-logo {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  border: 1px solid var(--line);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
 .eyebrow {
   margin: 0 0 0.35rem;
   color: var(--accent-2);
@@ -220,6 +229,14 @@ h2 {
   opacity: 1;
   transform: scale(1);
   background: var(--surface-2);
+}
+
+.card-product-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #f4f4f4;
+  border: 1px solid var(--line);
 }
 
 .text-link {
