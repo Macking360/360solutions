@@ -7,6 +7,9 @@
   <meta name="description" content="360 Solutions builds operator-grade assurance tools for managed service teams. TLS Guard is available now, with more products coming soon.">
   <meta property="og:title" content="360 Solutions | Operator-grade assurance tools">
   <meta property="og:description" content="Explore assurance products for MSP and agency operators. Start with TLS Guard today.">
+  <meta property="og:image" content="https://macking360.github.io/360solutions/assets/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://macking360.github.io/360solutions/assets/og.svg">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <!-- Lemon Squeezy Affiliate (enable when store is ready)
   <script>window.lemonSqueezyAffiliateConfig = { store: "360solutions" };</script>
@@ -38,11 +41,18 @@
           <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6h12l-1 10H8L7 6Zm2-3h8l1 2H8l1-2Zm-3 3H3v2h2l1 11h14l1-11h2V6h-3"></path></svg>
           Join waitlist
         </a>
-        <a class="btn btn-secondary" href="<DEMO_KIT_URL>">
+        <a class="btn btn-secondary" href="/demo-kit/">
           <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 6h12l-1 10H8L7 6Zm2-3h8l1 2H8l1-2Zm-3 3H3v2h2l1 11h14l1-11h2V6h-3"></path></svg>
           View Demo Kit
         </a>
       </div>
+      <form id="waitlist-form" class="waitlist-form" aria-label="Waitlist request form">
+        <label for="waitlist-email">Email for waitlist updates</label>
+        <div class="waitlist-row">
+          <input id="waitlist-email" name="email" type="email" required autocomplete="email" placeholder="you@company.com">
+          <button class="btn btn-secondary" type="submit">Request access</button>
+        </div>
+      </form>
     </section>
 
     <section id="products" class="products-section" aria-labelledby="products-title">
@@ -75,6 +85,24 @@
         <button class="carousel-arrow" data-dir="next" aria-label="Next product">&rarr;</button>
       </div>
       <div class="carousel-dots" role="tablist" aria-label="Select product slide"></div>
+    </section>
+
+    <section id="roadmap">
+      <h2>Roadmap</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Endpoint Inventory</h3>
+          <p class="tier-note">Planned visibility layer to map endpoint ownership and assurance coverage.</p>
+        </article>
+        <article class="card">
+          <h3>Portfolio Reporting</h3>
+          <p class="tier-note">Planned cross-client rollups for monthly assurance reporting and trend review.</p>
+        </article>
+        <article class="card">
+          <h3>Evidence Pack Portal</h3>
+          <p class="tier-note">Planned secure access view for historical Evidence Packs and renewal timelines.</p>
+        </article>
+      </div>
     </section>
   </main>
 

@@ -1,4 +1,23 @@
 (function () {
+  const waitlistForm = document.getElementById('waitlist-form');
+  const waitlistEmail = document.getElementById('waitlist-email');
+  if (waitlistForm && waitlistEmail) {
+    const savedEmail = localStorage.getItem('waitlist_email');
+    if (savedEmail) {
+      waitlistEmail.value = savedEmail;
+    }
+
+    waitlistForm.addEventListener('submit', function (event) {
+      event.preventDefault();
+      const email = waitlistEmail.value.trim();
+      if (!email) return;
+      localStorage.setItem('waitlist_email', email);
+      const subject = encodeURIComponent('TLS Guard Waitlist Request');
+      const body = encodeURIComponent('Please add this email to the waitlist: ' + email);
+      window.location.href = 'mailto:support@myagentleadsgenerator.com?subject=' + subject + '&body=' + body;
+    });
+  }
+
   const carousel = document.querySelector('[data-carousel]');
   if (!carousel) return;
 

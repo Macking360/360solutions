@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://macking360.github.io/360solutions/sitemap.xml
