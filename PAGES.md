@@ -10,4 +10,4 @@ Follow these steps in the GitHub web UI:
 Expected site URL format:
 https://macking360.github.io/360solutions/
 
-You can add a custom domain later in the same Pages settings.
+Custom domain can be added later from the same Pages settings.
