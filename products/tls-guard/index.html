@@ -98,6 +98,80 @@
       <p>Seats are human operators (not endpoints). Endpoints are configured in YAML.</p>
     </section>
 
+    <section id="why-not-expiry-only">
+      <h2>Why Not Just Expiry Alerts?</h2>
+      <ul>
+        <li>Detect configuration drift between runs</li>
+        <li>Generate defensible evidence artifacts automatically</li>
+        <li>Provide renewal calendar exports for planning</li>
+        <li>Produce executive-safe summaries without rewriting</li>
+      </ul>
+      <p>One missed renewal can cost more than a year of assurance tooling.</p>
+    </section>
+
+    <section id="outage-coverage">
+      <h2>What One Prevented Outage Covers</h2>
+      <p>A single prevented outage can offset support spikes, reduce reputation impact, and ease SLA pressure during high-visibility service windows.</p>
+    </section>
+
+    <section id="comparison">
+      <h2>Basic Expiry Monitor vs TLS Guard</h2>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Capability</th>
+              <th>Basic Expiry Monitor</th>
+              <th>TLS Guard</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Expiry alerts</td>
+              <td>Yes</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>TLS version confirmation</td>
+              <td>Limited</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Drift detection</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Evidence pack</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>ICS export</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Executive summary</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="msp-resale">
+      <h2>Built for MSP Resale</h2>
+      <ul>
+        <li><code>REPORT.html</code></li>
+        <li><code>EXEC_SUMMARY.txt</code></li>
+        <li>Evidence pack zip</li>
+        <li>Renewal ICS exports</li>
+      </ul>
+      <p>Use internally or bundle into managed services.</p>
+    </section>
+
     <section id="workflows">
       <h2>Fits MSP Workflows</h2>
       <ul>
